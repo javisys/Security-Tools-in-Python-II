@@ -14,7 +14,7 @@ I will gradually add more scripts, for now:
 
 ---------------------------------------
 <b>A DNS parser</b>
-<br>This script analyzes DNS traffic in real time and detects suspicious patterns, such as unusual queries or possible DNS tunneling attacks.
+<br>This script analyzes DNS traffic in real time and detects suspicious patterns, such as unusual queries or possible DNS tunneling attacks. This script should work correctly if TShark is installed and configured correctly on your system. Make sure TShark is in your PATH so that pyshark can find it.
   <ol>Filters A-type packets, CNAME, and unusual queries</ol>
   <ol>It generates alerts if it detects:</ol> <ol>Queries with long or repeated names</ol><ol>Queries to suspicious domains (blacklist).</ol>
 <br>

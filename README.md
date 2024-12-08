@@ -41,9 +41,21 @@ It can be made more advanced, I will update it to make it more powerful.
 <br>Scans the system for insecure permission settings
   <ol>Uses <em>os</em> to browse directories and obtain permissions</ol>
   <ol>Detects permissions as 777 and alerts the user</ol>
-<br>
-<b>Dictionary generator</b>
+<br><b>Use of the script:</b>
+<br>To use the script, save the code in a file, for example <em>audit_permissions.py</em>, and run the script from the command line with administrator permissions:
+
+<br>Windows: Open the command line as administrator and run the script.
+<br>Unix: Run the script with sudo:
+<br><pre><code>sudo python audit_permissions.py /route/to/audit -l audit_log.txt</pre></code>
+<br>For example, to audit the critical path /etc on a Unix system:
+<br><pre><code>sudo python audit_permissions.py /etc -l audit_log.txt</code></pre>
+<br><br><b>Dictionary generator</b>
 <br>Creates customized dictionaries based on user patterns (dates, names, keywords)
   <ol>Request basic information (names, dates, related words...)</ol>
   <ol>Combine patterns to generate combinations</ol>
   <ol>Save the dictionary to a file</ol>
+<br><b>Use of the script:</b>
+<br>To use the script, save the code in a file, for example <em>generate_dictionary.py</em>, and run the script from the command line:
+<br><pre><code>python generate_dictionary.py &lt;words&gt; &lt;max_length&gt; &lt;output_file&gt; [options]</code></pre>
+<br>For example, to generate a dictionary with the base words “admin”, “2023”, “password”, with a maximum length of 3, including special characters and numbers, and save it in dictionary.txt:
+<br><pre><code>python generate_dictionary.py "admin2023password" 3 diccionario.txt -s -n</code></pre>

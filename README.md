@@ -30,7 +30,7 @@ I will gradually add more scripts, for now:
   <ol>Using a keyboard monitoring library</ol>
   <ol>Save keystrokes to a file or send them to a controlled server</ol>
 It can be made more advanced, I will update it to make it more powerful.
-<br>
+<br><br>
 <b>Enhanced hashes cracker</b>
 <br>Breaks hashes using dictionaries and supports various algorithms (MD5, SHA-256, bcrypt...)
   <ol>Load a target hash and a dictionary</ol>

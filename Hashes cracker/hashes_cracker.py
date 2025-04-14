@@ -1,4 +1,4 @@
-# Javier Ferrándiz Fernández | 08/12/2024 | https://github.com/javisys
+# Javier Ferrándiz Fernández | https://github.com/javisys
 import hashlib
 import argparse
 import time

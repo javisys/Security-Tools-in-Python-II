@@ -58,4 +58,4 @@ It can be made more advanced, I will update it to make it more powerful.
 <br>To use the script, save the code in a file, for example <em>generate_dictionary.py</em>, and run the script from the command line:
 <br><pre><code>python generate_dictionary.py &lt;words&gt; &lt;max_length&gt; &lt;output_file&gt; [options]</code></pre>
 <br>For example, to generate a dictionary with the base words “admin”, “2023”, “password”, with a maximum length of 3, including special characters and numbers, and save it in dictionary.txt:
-<br><pre><code>python generate_dictionary.py "admin2023password" 3 diccionario.txt -s -n</code></pre>
+<br><pre><code>python generate_dictionary.py "admin2023password" 3 dictionary.txt -s -n</code></pre>

@@ -1,4 +1,4 @@
-# Javier Ferrándiz Fernández - 05/12/2024 - https://github.com/javisys
+# Javier Ferrándiz Fernández - https://github.com/javisys
 import pyshark
 from collections import defaultdict
 import datetime
